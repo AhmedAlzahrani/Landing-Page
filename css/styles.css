@@ -68,12 +68,28 @@ section {
     padding-left: 0;
     margin: 0;
     text-align: right;
+    height: 2.5em;
+    background: rgb(136,203,171);
+    background: linear-gradient(rgba(0,13,60,1) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.navbar__menu li {
+.navbar__menu a {
+    height: 100%;
     display: inline-block;
+    text-decoration: none;
+    color: #3300aa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
 }
 
+.navbar__menu #navbar__list a:hover {
+    background: rgb(88, 204, 148);
+}
 .navbar__menu .menu__link {
     display: block;
     padding: 1em;
