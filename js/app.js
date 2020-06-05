@@ -81,9 +81,6 @@ function toggleActiveClass(){
 }
 
 
-window.addEventListener("scroll" , function(){
-    toggleActiveClass();
-});
 // Scroll to anchor ID using scrollTO event
 
 
@@ -91,8 +88,11 @@ window.addEventListener("scroll" , function(){
  * End Main Functions
  * Begin Events
  * 
-*/
+ */
 
+window.addEventListener("scroll" , function(){
+    toggleActiveClass();
+});
 // Build menu 
 
 // Scroll to section on link click
