@@ -18,11 +18,17 @@
  * 
 */
 
-const navbarList = document.getElementById("navbar__list");
+const navbarList = document.querySelector("#navbar__list");
 
-let sections = document.getElementsByTagName("section");
+console.log(navbarList);
 
-const headers = document.getElementsByTagName("h2");
+let sections = document.querySelectorAll("section");
+
+console.log(sections);
+
+const headers = document.querySelectorAll("h2");
+
+console.log(headers);
 
 const anchorElements = createNavBarElements(sections.length);
 
