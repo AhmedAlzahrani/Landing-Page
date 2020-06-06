@@ -89,6 +89,8 @@ section {
 
 .navbar__menu #navbar__list a:hover {
     background: rgb(88, 204, 148);
+    text-decoration: underline;
+    cursor: pointer;
 }
 .navbar__menu .menu__link {
     display: block;
@@ -137,6 +139,10 @@ section {
         max-width: 50em;
         padding: 4em;
     }
+}
+
+section {
+    margin-bottom: 20vh;
 }
 
 section:nth-of-type(even) .landing__container {
@@ -224,6 +230,9 @@ section.active .landing__container::after {
     animation: rotate 5s linear 0s infinite forwards reverse;
 }
 
+a.active {
+    background-color: rgb(88, 204, 148);
+}
 /* Section Active Styles Keyframe Animations */
 @keyframes rotate {
 	from {
