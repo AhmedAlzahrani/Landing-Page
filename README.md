@@ -14,7 +14,7 @@ For specific, detailed instructions, look at the project instructions in the Uda
 
 ## Udacity's 2nd Projects
 
-*progress: Done
+## progress: Done
 
 ## submission
-#https://ahmedalzahrani.github.io/Landing-Page/
+# https://ahmedalzahrani.github.io/Landing-Page/
